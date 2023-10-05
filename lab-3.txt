@@ -1,0 +1,64 @@
+   Notes of Episode no 3 
+
+=> If I want to print h1 tag in browser using React so how do I write in React ?
+
+   So, if we want to print h1 tag in browser using reatc so first we have to create variable and then we have 
+   to creat "React.createElement" inside variable it is basically creat element for us and after creating 
+   element we have to pass three arguments inside round brakets, the first arguments is name of the which we
+   are want to generate inside my dom, the second thing is an object which will go as an attributes, attribute
+   may be Id class whatever you wish give it and the third arguments goes what are the children of variable so
+   it is a syntax of creating element inside browser using React.
+   But this React element is not an html element when you do React.createElement this basically creat an object
+   so basically React element at the end of the is an object and when we render this element into the dom it
+   becomes an html. 
+   
+=> What is JSX ?
+   So first of all JSX and React both are difference JSX not a part of React. JSX is not HTML in JS, JSX is an
+   HTML like syntax. JSX stands for JavaScript XML. JSX allows us to write HTML in React. JSX makes it easier 
+   to write and add HTML in React.
+   This is a syntax of writ JSX in JavaScript. const jsxHeading = <h1 id:"heading">It is a syntax of JSX</h1>;
+   so when this piece of code executed this code becomes an react element. JSX engine can't read this piece of
+   code.
+
+=> If JSX engine can't read piece of code then how it's working behind the browser ?
+   It is because parcel doing the job behind the browser. when we write code that code is develop by us even
+   before that code goes to the JS engine it is transpiled brfore the JS engin and then JS engin recieve the 
+   code and then browser can understand.
+
+=> How JSX work ?
+   When you put the JSX code so it is converted to "React.createElement" and this React.createElement it makes
+   a JS object and then this React element render into the dom as an HTML element and babel in converted.
+
+=> If we want to write muiltiple line in JSX the how we will writ ?
+   we have to write in inside the parantheses().because babel need to understand where is JSX starting and 
+   where is JSX ending so it required to wrap it code inside round brakets.
+
+=> What is the mean of transpiled ?
+   Transpiled mean it converted the code that browser and React can understand.
+
+=> PARCEL ?
+   so parcel is one type of manager for us. It doesn't do lot of things by itself. It has It own cabinet of
+   minister it gives the responsibility of the transpiled to a package which is knows as "babel".
+
+=> What is babel ?
+   Babel is a JavaScript compiler that converts modern JavaScript code into a version compatible with all 
+   browsers. Babel enables React developers to use the latest JavaScript syntax in their components. Babel 
+   transpiles modern JavaScript for use in React components and all browsers.
+   Babel is a toolchain that is mainly used to convert ECMAScript 2015+ code into a backwards compatible 
+   version of JavaScript in current and older browsers or environments
+
+=> What is components ?
+   Components are independent and reusable bits of code. They serve the same purpose as JavaScript functions,
+   but work in isolation and return HTML. Components come in two types, Class components and Function 
+   components. class based uses for JS classes and Functional use for functions.
+   class based is old way and Functional is ney way.
+
+=> What is React Functional Component ?
+   A React functional component is a simple JavaScript function that accepts props and returns a React element.
+   After the introduction of React Hooks, writing functional components has become the ​standard way of writing 
+   React components in modern applications.
+
+=> What is composition components ?
+   Component composition is the name for passing components as props to other components, thus creating new 
+   components with other components.
+   
